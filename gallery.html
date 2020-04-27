@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Homepage</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="fonts.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ac5b824052.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <nav id="nav"></nav>
+
+    <hgroup>
+        <h1>Gallery</h1>
+        <h2>Some glorious images right here.</h2>
+      </hgroup>
+    <div class="galleryLightBox">
+        <div class="row">
+            <div class="column">
+                <img src="/pictures/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="/pictures/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="/pictures/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+              <img src="/pictures/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="/pictures/5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="/pictures/6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+            </div>
+      </div>
+      
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="/pictures/1.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="/pictures/2.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="/pictures/3.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="/pictures/4.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="/pictures/5.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="/pictures/6.jpg" style="width:100%">
+          </div>
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="footer">
+
+    </div>>
+</body>
+</html>
