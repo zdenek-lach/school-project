@@ -8,7 +8,6 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link href="fonts.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ac5b824052.js" crossorigin="anonymous"></script>
     <script src="main.js" defer></script>
 </head>
@@ -19,16 +18,48 @@
         <h1>SHOP</h1>
         <h2>Do you want some merch? </h2>
       </hgroup>
-
-      <!-- <video width="320" height="240" controls>
+      <div class="shop">
+        
+        <div class="shop-item">
+          <video width="320" height="240" controls>
         <source src="http://dl5.webmfiles.org/big-buck-bunny_trailer.webm" type="video/webm">
-    </video>
-    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
-    </canvas>
-    <audio controls>
-        <source src="https://www.html5tutorial.info/media/vincent.mp3" type="audio/mpeg">
-    </audio> -->
-    
+          </video>
+          <h2>Video trailer | 12.99$</h2>
+        </div>
+        <div class="shop-item">
+            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+              <h2>Empty canvas | 19.99$</h2>
+         </div>
+          <div class="shop-item">
+            
+          <audio controls>
+            <source src="https://www.html5tutorial.info/media/vincent.mp3" type="audio/mpeg">
+          </audio>
+          <h2>Terrible sample sound | 34.99$</h2>
+      </div>
+      <div class="shop-item">
+        
+          <canvas id="myFancyCanvas" width="200" height="150"></canvas>
+          <script>  
+            var ctx = document.getElementById('myFancyCanvas').getContext('2d');
+            for (var i = 0; i < 6; i++) {
+              for (var j = 0; j < 6; j++) {
+                ctx.fillStyle = 'rgb(' + Math.floor(255 - 22.5 * i) + ', ' +
+                 Math.floor(255 - 52.5 * j) + ', 0)';
+                ctx.fillRect(j * 25, i * 25, 25, 25);
+            }
+          }
+          </script>
+          <h2>Fancy canvas | 19.99$</h2>
+       </div>
+       
+       <div class="buy-button">
+        <button id="shop-button" onclick="showAlert()">
+        <a href="contacts.html">BUY NOW!</a>
+      </button>
+    </div>
+    </div>
+         
       <div id="footer" class="footer">
         
     </div>

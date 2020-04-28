@@ -77,3 +77,7 @@ function openModal() {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
+
+  function showAlert(){
+    window.alert(`You just bought something at random, YAAY! \n\nPlease fill in the form, we'll send out the rest!`);
+}
