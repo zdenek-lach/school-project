@@ -12,6 +12,12 @@ header {
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
+
+}
+
+i{
+    display: block;
+    margin-left: .5rem;
 }
 
 .footer {
@@ -124,6 +130,9 @@ p {
     margin: 0 auto;
     margin-top: 5%;
     text-align: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgb(245, 245, 245);
 }
 
 .moreStuff a {
@@ -136,14 +145,18 @@ p {
 }
 
 .moreStuff a:hover {
-    color: red;
-    background-color: lavenderblush;
+    color: rgb(54, 0, 0);
+    background-color: rgb(212, 212, 212);
 }
 
 .content {
     color: darkslategray;
     margin: 2rem;
     font-family: "PT Sans Caption", sans-serif;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 5rem;
 }
 
 
@@ -177,6 +190,7 @@ figure img {
     width: 500px;
     border-radius: 5px;
     margin: 0 auto;
+    
 }
 
 .container .form {
@@ -317,6 +331,8 @@ figure img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 2rem;
+    background-color: rgb(241, 241, 241);
 
 }
 
@@ -458,8 +474,13 @@ img.hover-shadow {
     justify-content: space-evenly;
     margin: 2.5rem auto;
     padding: 0;
-    height: 400px;
-    width: 650px;
+    padding-top: 2rem;
+    height: 450px;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 3rem;
 }
 .map-desc{
     font-weight: bolder;
@@ -511,8 +532,7 @@ img.hover-shadow {
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width:  20%;
-    border-radius: 5px;
+    width:  30%;
     margin: 1rem auto;
     padding: 1rem;
     border: 1px solid black;

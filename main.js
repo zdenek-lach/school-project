@@ -9,11 +9,11 @@ let navbarTemplate =
     '<a href="faq.html"><i class="fas fa-question"></i>' + ' ' + 'FAQ</a> ' +
     '<a href="more.html"><i class="fas fa-angle-double-right"></i>' + ' ' + 'MORE</a> ' +
      */
-    '<a href="index.html">HOME' + '___' + '<i class="fas fa-home id="navHome"></i></a> ' +
-    '<a href="about.html">ABOUT' + '___' + '<i class="fas fa-info"></i></a> ' +
-    '<a href="contacts.html">CONTACTS' + '___' + '<i class="fas fa-address-book"></i></a> ' +
-    '<a href="faq.html">FAQ' + '___' + '<i class="fas fa-question"></i></a> ' +
-    '<a href="more.html">MORE' + '___' + '<i class="fas fa-angle-double-right"></i></a> ' +
+    '<a href="index.html">HOME' + '<i class="fas fa-home id="navHome"></i></a> ' +
+    '<a href="about.html">ABOUT' + '<i class="fas fa-info"></i></a> ' +
+    '<a href="contacts.html">CONTACTS' + '<i class="fas fa-address-book"></i></a> ' +
+    '<a href="faq.html">FAQ' + '<i class="fas fa-question"></i></a> ' +
+    '<a href="more.html">MORE' + '<i class="fas fa-angle-double-right"></i></a> ' +
     '<footer>Le Footer</footer>';
 document.getElementById("nav").innerHTML = navbarTemplate;
 
