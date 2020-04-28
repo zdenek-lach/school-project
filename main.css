@@ -538,5 +538,7 @@ img.hover-shadow {
     text-decoration: none;
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.5rem;
+    font-weight: bold;
     text-align: center;
+    color: black;
 }
